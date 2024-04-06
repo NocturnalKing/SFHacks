@@ -84,20 +84,40 @@ p {
   font-family: courier;
   font-size: 160%;
 }
+
+ /* What is your destination */
+ .background-image {
+      position: relative;
+      background: url('map.webp'); 
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+      padding: 140px 0 40px; /* Add padding to ensure the text is readable */
+      text-align: center; /* Center align the text */
+      z-index: -1; /* Ensure it's behind other elements */
+    }
+    
+    .button-container {
+      position: relative;
+      z-index: 1; /* Ensure it's in front of the background image */
+    }
+
+    .btn-success {
+
+      margin-top: 40px;
+    }
 </style>
 </head>
 
-
-
-
-
-<body>
-<h1 align="center">Where do you want to go today?</h1>
+   <!--   First Section of the Main  -->
+<div class = "background-image">
+  <h1>What is your destination today?</h1>
+<div class = "button-container">
 <center>
-  <h2>Take an economic route here</h2>
+  <button type="button" class="btn btn-success">Take an economic route here </button>
 </center>
-<h3>Today we'd like to introduce you to a new, more conscious way of looking at your daily communute!</h3>
-
+</div>
+</div>
 
 
 <head>
@@ -121,7 +141,7 @@ p {
 <body>
    <div style = "position:relative; left:80px; top:80px;">
        <div id="rcorners1">
-    "Trasnit safety should be accessible to all"
+    Feel confident while riding transit
    </div>
 </body>
 

@@ -42,9 +42,14 @@ body {
 
   }
 
+  /**************** What is your destination ****************/
+
+
+
+
 /* green box*/
 #rcorners1{
-border-radius: 25px;
+border-radius: 7px;
 background: #5FB96A;
 padding: 20px;
 width: 200px;
@@ -53,7 +58,7 @@ height: 150px;
 
 /* 2nd green box*/
 #rcorners2{
-  border-radius: 25px;
+  border-radius: 7px;
   background: #368b40;
   padding: 20px;
   width: 200px;
