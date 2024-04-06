@@ -7,3 +7,35 @@ body {
   p {
     color: red;
   }
+
+    /**************** Fonts  ****************/
+    /*
+    - Roboto Slab
+    
+    
+    
+    */
+
+
+  /**************** Navbar ****************/
+
+  
+  #navName{
+    text-align: center!important;
+
+  }
+
+  #Colored{
+    background-color: #5FB96A!important;
+  }
+
+  #Logo{
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  padding-left: 265px;
+    color: aliceblue;
+
+  }
+
+
