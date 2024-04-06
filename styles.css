@@ -42,11 +42,13 @@
 
   /**************** What is your destination ****************/
 .destination-text{
-font-size: 0px;
+font-size: 45px;
 font-family: "Roboto Slab", serif;
 color:rgb(84, 76, 78);
-padding: -400px 0 34px;
-margin-top: -60px;
+/* padding: -00px 0 34px; */
+margin-top: -20px;
+z-index: -1!important;
+
 }
 
 
