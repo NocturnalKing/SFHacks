@@ -1,6 +1,4 @@
-body {
-    background-color: powderblue;
-  }
+
   h1 {
     color: blue;
   }
@@ -43,7 +41,13 @@ body {
   }
 
   /**************** What is your destination ****************/
-
+.destination-text{
+font-size: 0px;
+font-family: "Roboto Slab", serif;
+color:rgb(84, 76, 78);
+padding: -400px 0 34px;
+margin-top: -60px;
+}
 
 
 
