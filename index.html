@@ -26,14 +26,17 @@
 <!--   Navbar    -->
 
 <nav id = "Colored" class="navbar navbar-expand-lg navbar-light ">
-  <img src="profile.png" alt="Profile Icon"  style="height:40px">
+<!--  LOGO in  Navbar     -->
+<button type="button" class="btn btn-danger">Report</button>
 
 
-        <!--  LOGO in  Navbar     -->
-
-        <a id="Logo" class = "navbar-brandName"href="#">ecoBus</a>
-
-        <button type="button" class="btn btn-danger">Report</button>
+  <div class="profile-menu">
+  <div class = "user-info">
+    <a id="Logo" class = "navbar-brandName"href="#">ecoBus</a>
+  <img src="profile.png" class = "userProfile" alt="Profile Icon"  style="height:40px">
+</div>
+</div>
+       
 
 
 
@@ -97,11 +100,7 @@ p {
 
     }
 
-    .navbar-brandName{
-
-      margin-left: 320px;
-
-    }
+  
 
     .btn-danger{
       border-color: rgb(148, 17, 17);
@@ -113,7 +112,7 @@ p {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-left: auto;
+      margin-right: auto;
       border-width: 1.5px;
     }
 </style>
@@ -124,6 +123,9 @@ p {
   <h1 class = "destination-text">What is your destination today?</h1>
 <div class = "button-container">
 <center>
+
+  <button type="button" class="btn btn-success">Take an economic route here</button>
+
   <a href="locate.html" class="btn btn-success">Take an economic route here</a>
 
 </center>
