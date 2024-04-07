@@ -118,7 +118,7 @@ form inout{
 input[type="button"]{
   width: 320px;
   height: 35px;
-  margin-top: 20px
+  margin-top: 20px;
   border: none;
   background-color: #5FB96A;
   color: white;
