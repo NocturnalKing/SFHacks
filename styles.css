@@ -17,18 +17,38 @@
 
 
   /**************** Navbar ****************/
-.profile-meu{
-background: #fff;
+.profile-menu{
+/* background: #fff;
 padding: 20px;
-margin: 10px;
+margin: 10px; */
 
 
 }
+
+.profile-menu{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 11px;
+  border-width: 1.5px;
+
+}
+ 
+
 
 .user-info{
 
   display:flex;
   text-align: center;
+
+}
+
+.navbar-brandName{
+
+position:absolute;
+left:40%;
+transform:translateX(-50%);
+
 
 }
 
