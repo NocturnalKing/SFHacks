@@ -5,7 +5,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
   
   <meta charset = "UTF-8"/>
   <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
@@ -126,7 +128,6 @@ p {
 
   <button type="button" class="btn btn-success">Take an economic route here</button>
 
-  <a href="locate.html" class="btn btn-success">Take an economic route here</a>
 
 </center>
 </div>
@@ -138,26 +139,49 @@ p {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Styled Box</title>
   <style>
+
+    .marcellus-regular {
+      font-family: "Marcellus", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
     #rcorners1 {
       border-radius: 25px;
       background: #5FB96A;
       padding: 20px;
-      width: 600px;
+      width: 650px;
       height: 400px;
       color: white;
       font-size: 75px;
+      display: flex; /* Use flexbox */
+      justify-content: center; /* Center horizontally */
+      align-items: center;
+    }
+
+    #rcorners2 {
+      border-radius: 25px;
+      background: #356859; /* Darker color for the new box */
+      padding: 20px;
+      width: 650px;
+      height: 400px;
+      color: white;
+      font-size: 50px;
+      position: absolute; /* Position the new box absolutely */
+      left: 650px; /* Position the new box 80px to the right of the first box */
+      top: 0px; /* Align the top of the new box with the first box */
     }
   </style>
 </head>
-
-<head>
-</head>
-
 <body>
-   <div style = "position:relative; left:80px; top:80px;">
-       <div id="rcorners1">
-    Feel confident while riding transit
-   </div>
+  <div style="position:relative; left:80px; top:60px;">
+    <div id="rcorners1" class="marcellus-regular">
+      Feel confident while riding transit
+    </div>
+    <div id="rcorners2" class="marcellus-regular">
+      Today we'd like to introduce you to a new, more conscious way of looking at your daily commute!
+    </div>
+  </div>
 </body>
 
 
