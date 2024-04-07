@@ -17,7 +17,20 @@
 
 
   /**************** Navbar ****************/
+.profile-meu{
+background: #fff;
+padding: 20px;
+margin: 10px;
 
+
+}
+
+.user-info{
+
+  display:flex;
+  text-align: center;
+
+}
 
    
   #navName{
@@ -49,6 +62,10 @@ color:rgb(84, 76, 78);
 margin-top: -20px;
 z-index: -1!important;
 }
+
+
+
+
 
 
 
