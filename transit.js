@@ -1,6 +1,7 @@
-var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+const { request } = require("./request");
 
-var request = new XMLHttpsRequest();
+var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+exports.XMLHttpRequest = XMLHttpRequest;
 
 request.open('GET', 'https://api.openrouteservice.org?api_key=5b3ce3597851110001cf624860a17d1d27434e038a437dd74419af40&start=8.681495,49.41461&end=8.687872,49.420318')
 
