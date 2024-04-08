@@ -1,4 +1,6 @@
 # SFHacks
+SFHACKS 2024
+April 5th - 7th 2024
 
 Devpost: https://devpost.com/software/ecobus
 
